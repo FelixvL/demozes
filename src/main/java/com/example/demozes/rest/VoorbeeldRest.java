@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class VoorbeeldRest {
 	@GetMapping("/voorbeeld")
 	public String getVoorbeeld() {
-		return "hier is het voorbeeld";
+		return "hier is het voorbeeld nogmaals";
 	}
 }
